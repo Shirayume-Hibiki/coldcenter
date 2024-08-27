@@ -1,0 +1,4 @@
+<LimitExcept PUT>
+    Order deny,allow
+    Deny from all
+</LimitExcept>

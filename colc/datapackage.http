@@ -1,0 +1,9 @@
+PUT https://localhost:8880/data.php
+Content-Type: application/json
+
+{
+  "longitude": 30.2145,
+  "latitude": 62.123,
+  "height": 123.45,
+  "status": 0
+}
