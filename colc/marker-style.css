@@ -1,0 +1,23 @@
+#map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+  .marker {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;  /* Makes the marker round */
+    background-color: red;  /* Default color */
+    border: 2px solid white;
+  }
+  .marker.red {
+    background-color: red;
+  }
+  .marker.green {
+    background-color: green;
+  }
+  .marker.blue {
+    background-color: blue;
+  }
