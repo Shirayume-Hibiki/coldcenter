@@ -1,0 +1,54 @@
+/* Map container */
+#map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* Marker styling */
+.marker {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;  /* Makes the marker round */
+  background-color: red;  /* Default color */
+  border: 2px solid white;
+  position: absolute;  /* Ensure the marker stays absolute */
+  z-index: 100;  /* Make sure the marker stays on top of the labels */
+}
+
+/* Marker status colors */
+.marker.red {
+  background-color: red;
+}
+.marker.green {
+  background-color: green;
+}
+.marker.blue {
+  background-color: blue;
+}
+.marker.gray {
+  background-color: gray;
+}
+.marker.purple {
+  background-color: purple;
+}
+
+/* Labels container for height and user info */
+.marker-label-container {
+  position: absolute;  /* Position it relative to the marker */
+  top: 25px;  /* Adjust this value to ensure it's right below the marker */
+  left: -20px;  /* Center the labels under the marker */
+  z-index: 90;  /* Ensure it is below the marker */
+}
+
+/* Styling for individual labels */
+.marker-label, .user-label {
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 12px;
+  margin: 2px 0;  /* Add a little space between the labels */
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "userID": "user",
+        "longitude": 106.6430722,
+        "latitude": 10.7649642,
+        "height": 4.599999904632568,
+        "status": 2,
+        "lastUpdate": 1733811763
+    },
+    {
+        "userID": "thu",
+        "longitude": 106.6429959,
+        "latitude": 10.7650675,
+        "height": 19.200000762939453,
+        "status": 2,
+        "lastUpdate": 1730959095
+    },
+    {
+        "userID": "bqcVJhxumBOI5cpWxr18v4Eh6V83",
+        "longitude": 106.642924,
+        "latitude": 10.765198,
+        "height": 19.200000762939453,
+        "status": 1,
+        "lastUpdate": 1731028277
+    },
+    {
+        "userID": "eM0vu0wqrbMWGaWCVouBzVMLM7P2",
+        "longitude": 106.643028,
+        "latitude": 10.76501,
+        "height": 4.5,
+        "status": 0,
+        "lastUpdate": 1733813416
+    },
+    {
+        "userID": "observer",
+        "longitude": 106.7066946,
+        "latitude": 10.7848741,
+        "height": 10.600000381469727,
+        "status": "2",
+        "lastUpdate": 1731135904
+    },
+    {
+        "userID": "obsserver",
+        "longitude": 106.6425777,
+        "latitude": 10.7642363,
+        "height": 0,
+        "status": "2",
+        "lastUpdate": 1731124896
+    }
+]
